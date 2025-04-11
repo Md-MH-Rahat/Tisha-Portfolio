@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import { PiHexagonThin } from "react-icons/pi";
 import "./hero.css"
+import tishaimg from "../../assets/images/tisha.jpg"
 
 const HeroPic = () => {
   return (
@@ -13,9 +14,9 @@ const HeroPic = () => {
       className=" h-full flex items-center justify-center "
     >
       <img
-        src="../../public/images/tisha.jpg"
+        src={tishaimg}
         alt=""
-        className=" w-[380px] h-[380px] tish_clip"
+        className="sm:w-[320px] sm:h-[320px] md:w-[380px] md:h-[380px] tish_clip"
         
       />
 

@@ -2,20 +2,21 @@ import ProjectsText from "./ProjectsText";
 import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
-
+import abc from "../../../src/assets/images/brand.jpg"
+import abcd from "../../../src/assets/images/tshirt.jpg"
 const projects = [
   {
     name: "TERRATREK",
     year: "Mar2025",
     align: "right",
-    image: "../../public/images/brand.jpg",
+    image: abc,
     link: "https://www.behance.net/gallery/223188239/TERRATREK-Brand-Identity",
   },
   {
     name: "T‑SHIRT DESIGNS",
     year: "Feb2025",
     align: "left",
-    image: "../../public/images/tshirt.jpg",
+    image: abcd,
     link: "https://www.behance.net/gallery/223187023/ANIME-TSHIRT-DESIGNS",
   },
   // {

@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -38,7 +39,7 @@ const ContactForm = () => {
   return (
     <div>
       <p className="text-cyan">{success}</p>
-      <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-4">
+      <form ref={form}  onSubmit={sendEmail} className="flex flex-col gap-4">
         <input
           type="text"
           name="from_name"
